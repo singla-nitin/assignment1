@@ -14,7 +14,7 @@ def img_to_array(path):
         np.savetxt(file_name, img_array.flatten(), fmt='%d')
         print(f"Image saved as {file_name}")
 
-img_to_array(r"/content/drive/MyDrive/Colab Notebooks/DATASETS/El Gato Sticker.jpeg")
+img_to_array(r"image path")
 
 #b)
 import matplotlib.pyplot as plt
